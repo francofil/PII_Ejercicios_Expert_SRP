@@ -12,6 +12,7 @@ namespace SRP{
         public Sector(String nombre, int id){
             this.nombre = nombre;
             this.id = id;
+            listaShelves = new List<Shelve>();
         }
 
         public void AgregarEstante(Shelve estante){

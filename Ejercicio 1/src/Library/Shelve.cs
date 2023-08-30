@@ -10,6 +10,7 @@ namespace SRP{
 
         public Shelve(string codigo){
             this.codigo = codigo; 
+            listaLibros = new List<Book>();
         }
 
         public void AgregarLibro(Book libro){
